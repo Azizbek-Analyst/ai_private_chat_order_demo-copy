@@ -42,7 +42,6 @@
 
 Example: 
 
-export  GEMINI_API_KEY="AIzaSyAT84ZM_ClVll5V2e9nzQOSYD7cPWeiHbQ"  
 python cli.py
 
 Message: Create an order for John Smith, john@example.com, +1-212-555-0100, Boston, 20 roses
