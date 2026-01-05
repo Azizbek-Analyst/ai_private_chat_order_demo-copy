@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configs
-CRYPTOR_SERVICE_URL = os.getenv("CRYPTOR_API_URL", "https://private-layer-397444089703.europe-west1.run.app")
+CRYPTOR_SERVICE_URL = os.getenv("CRYPTOR_API_URL", "NONE")
 API_KEY = os.getenv("API_KEY", "dev-secret-demo")
 TENANT = os.getenv("TENANT", "ai_private_demo")
 HEADERS = {"x-api-key": API_KEY}
